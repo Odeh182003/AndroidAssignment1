@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".thirdActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/mentalhealth"
+         />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:text="Mood Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+    <Spinner
+        android:id="@+id/mood_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+       android:outlineAmbientShadowColor="@color/white"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/add_mood_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Mood"
+        android:layout_marginVertical="100dp"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@android:color/white"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
